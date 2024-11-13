@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "shadcn:add": "TS_NODE_PROJECT=tsconfig.base.json npx shadcn@latest add",
-    "example:shadcn:add": "echo 'npm run shadcn:add button'"
+    "example:shadcn:add": "echo 'npm run shadcn:add -- button'"
   },
   "private": true,
   "dependencies": {
