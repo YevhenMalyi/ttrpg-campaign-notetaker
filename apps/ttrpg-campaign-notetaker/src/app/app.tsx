@@ -1,9 +1,11 @@
-import NxWelcome from './nx-welcome';
+import '@shadcn-test/styles/global.css';
+
+import { Button } from '@ttrpg-campaign-notetaker/ui/button';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="ttrpg-campaign-notetaker" />
+      <Button>Click me</Button>
     </div>
   );
 }
